@@ -85,6 +85,7 @@ const RigthButton = styled(LeftButton)`
 const DownArrow = styled.img`
     height: 40px;
     margin-bottom: 2px;
+    cursor: pointer;
     overflow-x : hidden;
     animation: animateDown infinite 1.5s;
 `
