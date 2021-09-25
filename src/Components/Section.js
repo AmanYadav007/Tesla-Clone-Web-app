@@ -13,9 +13,13 @@ function Section({title, description, leftBtnText, rightBtnText,backgroundImg}) 
                 <LeftButton>
                     {leftBtnText}
                 </LeftButton>
-                <RigthButton>
+                { rightBtnText && 
+                    <RigthButton>
                     {rightBtnText}
                 </RigthButton>
+
+                }
+                
             </ButtonGroup>
             <DownArrow src="/images/down-arrow.svg" />
             </Buttons>
